@@ -1,0 +1,70 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #c4c4c4;
+}
+
+.title {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add {
+    background-color: #070707;
+    color: white;
+    top: 24px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 24px;
+
+}
+
+
+
+.modif {
+    background-color: #f1a20f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.supr {
+    background-color: #e80b0b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input:hover, .add:hover {
+    background-color: #585858;
+}
+
+.bouton{
+    margin-top: 35px;
+}

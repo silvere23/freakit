@@ -1,0 +1,159 @@
+body {
+
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(bg6.jpg);
+  background-origin: border-box;
+  background-size: cover;
+
+ 
+
+}
+
+.f {
+  display: block;
+  background-color: black;
+  border: black;
+}
+
+.cardcontain {
+  max-width: 600px;
+  margin: 40px 25px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-left: solid;
+}
+
+.category {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: black;
+  width: 560px;
+  padding: 15px;
+  text-align: right;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-right: 300px;
+}
+
+.head img {
+  margin: -10px;
+  width: 60px;
+  height: 70px;
+  object-position: left bottom;
+  align-items: first baseline;
+}
+
+.contentinf {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containban {
+  color: #ffa600;
+  font-weight: bolder;
+}
+
+.containban hr {
+  margin-top: 40px;
+}
+
+.contentinf .inf {
+  font-size: 15px;
+  font-style: italic;
+  text-align: right;
+}
+
+.contentinf a.answer-btn {
+  padding: 8px;
+  border: none;
+  background-color: #eab515;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+.contentinf a.views-btn {
+  padding: 8px;
+  border: none;
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 5px;
+}
+.contentinf a.close-btn {
+  padding: 8px;
+  border: none;
+  background-color: #031481;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 5px;
+}
+.contener {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  resize: none;
+  border: none;
+}
+
+button {
+  background-color: black;
+  border: none;
+  text-align: center;
+  padding: 8px;
+  width: 500;
+}
+
+.btn {
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.banner {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+}
+
+.banner span {
+  color: black;
+}
+
+.btn1 {
+  margin: 10px;
+  margin-left: -150px;
+  max-width: 100px;
+}
+.contentinf a:hover {
+  background-color: #555;
+}
+.emoj{
+  position:relative;
+  top: 2px;
+  width: 17px;
+  height: 17px;
+}
+.error{
+  color: #fff;
+  text-align: center;
+}
+.btn2 {
+  margin: 10px;
+  margin-left: -150px;
+  max-width: 100px;
+}

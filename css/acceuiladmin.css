@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Tw Cen MT', sans-serif;
+}
+
+.container {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('bg4.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 0 8%;
+}
+
+.content {
+	position: absolute;
+	color: #fff;
+	margin-top: 350px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.title{
+	border-radius: 35px;
+	width: 900px;
+	margin-left: 170px;
+	margin-top: auto;
+}
+.title h1{
+	font-size: 90px; 
+	opacity: 0.9;
+}
+.title hr{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
